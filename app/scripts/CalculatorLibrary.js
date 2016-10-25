@@ -1,42 +1,58 @@
-﻿var txtInput;
-var txtResult;
+﻿// Definisco un namespace
+ var calculatorNamespace = (function(){
+    //var calculatorNamespace
+    
+    //this.calculatorNamespace = this.calculatorNamespace || {};
+     //calculatorNamespace = {};
+    var ns = {};//calculatorNamespace;
+    
 
-function initialize() {
-    for (var i = 0; i < 10; i++) {
-        document.getElementById('btn'+i).addEventListener('click', numberClick, false);
-    }
-    txtInput = document.getElementById('txtInput');
-    txtResult = document.getElementById('txtResult');
+    ns.initialize = function () {
+        var calculator = new ns.Calculator(); 
+        $('button[id^="btnNumber"]').on('click', calculator.numberClick);   
+       
+        //txtResult = $('#txtResult');//document.getElementById('txtResult');
 
-    document.getElementById('btnPlus').addEventListener('click', plusClick, false);
-    document.getElementById('btnMinus').addEventListener('click', minusClick, false);
-    document.getElementById('btnClearEntry').addEventListener('click', clearEntry, false);
-    document.getElementById('btnClear').addEventListener('click', clear, false);
-    clear();
-}
+        //document.getElementById('btnPlus').addEventListener('click', plusClick, false);
+        $('#btnPlus').on('click', calculator.plusClick);
+        //document.getElementById('btnMinus').addEventListener('click', minusClick, false);
+        $('#btnMinus').on('click',calculator.minusClick);
+        //document.getElementById('btnClearEntry').addEventListener('click', clearEntry, false);
+        $('#btnClearEntry').on('click',calculator.clearEntry);
+        //document.getElementById('btnClear').addEventListener('click', clear, false);
+        $('#btnClear').on('click',calculator.clear);
+        calculator.clear();
 
-function numberClick() {
-    txtInput.value = txtInput.value == '0' ? this.innerText : txtInput.value + this.innerText;
-}
+    };
 
-function plusClick() {
-    txtResult.value = Number(txtResult.value) + Number(txtInput.value);
-    clearEntry();
-}
+    ns.Calculator = (function(){
+        function Calculator(){        
+        }
 
-function minusClick() {
-    txtResult.value = Number(txtResult.value) - Number(txtInput.value);
-    clearEntry();
-}
+        Calculator.prototype.numberClick = function() {
+            $('#txtInput').val($('#txtInput').val() == '0' ? this.innerText : $('#txtInput').val() + this.innerText );
+        };
 
-function clearEntry() {
-    txtInput.value = '0';
-}
+        Calculator.prototype.plusClick = function() {
+            $('#txtResult').val( Number($('#txtResult').val()) + Number($('#txtInput').val()) );
+            Calculator.prototype.clearEntry();
+        };
 
-function clear() {
-    txtInput.value = '0';
-    txtResult.value = '0';
-}
+        Calculator.prototype.minusClick = function() {
+            $('#txtResult').val( Number($('#txtResult').val()) - Number($('#txtInput').val()) );
+            Calculator.prototype.clearEntry();
+        };
 
+        Calculator.prototype.clearEntry = function() {
+            $('#txtInput').val('0');
+        };
 
+        Calculator.prototype.clear = function() {
+            Calculator.prototype.clearEntry();
+            $('#txtResult').val('0');
+        };
 
+        return Calculator;   
+    })();
+    return ns;
+})() || {};
