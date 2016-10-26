@@ -24,7 +24,13 @@ app.post('/submitHelloPost', function(req, resp){
 	}
 });
 
-
+app.get('/addiction', function( req, resp){
+	var x = Number(req.query.x),
+		y = Number(req.query.y),
+		res = x + y;
+	resp.writeHead(200,{'Content-Type':'application/json'});
+	resp.end('{"result":"'+res+'"}');
+});
 
 app.listen(port);
 console.log('Server avviato su porta '+port);

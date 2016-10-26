@@ -4,6 +4,62 @@
 		"selected_items":
 		[
 			[
+				"wri",
+				"writeHead"
+			],
+			[
+				"form",
+				"formidable"
+			],
+			[
+				"sub",
+				"submitHelloPost"
+			],
+			[
+				"bord",
+				"border-color"
+			],
+			[
+				"bo",
+				"border-width"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"border-",
+				"border-width"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"la",
+				"lastName"
+			],
+			[
 				"clea",
 				"clear"
 			],
@@ -18,14 +74,6 @@
 			[
 				"not",
 				"QUnit: notOk"
-			],
-			[
-				"margin",
-				"margin-left"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"mar",
@@ -68,21 +116,30 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/leonardo.fontana/Desktop/CalculatorLibrary.js",
+			"file": "app/helloForm.html",
 			"settings":
 			{
-				"buffer_size": 1565,
-				"encoding": "UTF-8 with BOM",
+				"buffer_size": 195,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/leonardo.fontana/Desktop/default.html",
+			"file": "server/app.js",
 			"settings":
 			{
-				"buffer_size": 3634,
-				"encoding": "UTF-8 with BOM",
+				"buffer_size": 906,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 82,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -257,14 +314,31 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Users/leonardo.fontana/html-training/1",
+		"/C/Users/leonardo.fontana/html-training/1/app",
+		"/C/Users/leonardo.fontana/html-training/1/app/scripts",
+		"/C/Users/leonardo.fontana/html-training/1/app/styles",
+		"/C/Users/leonardo.fontana/html-training/1/server",
+		"/C/Users/leonardo.fontana/html-training/1/server/public",
+		"/C/Users/leonardo.fontana/html-training/1/server/public/styles",
+		"/C/Users/leonardo.fontana/html-training/1/test"
+	],
 	"file_history":
 	[
+		"/C/Users/leonardo.fontana/html-training/1/app/contactus.html",
+		"/C/Users/leonardo.fontana/html-training/1/server/package.json",
+		"/C/Users/leonardo.fontana/html-training/1/server/app.js",
+		"/C/Users/leonardo.fontana/html-training/1/gulpfile.js",
+		"/C/Users/leonardo.fontana/html-training/1/app/styles/default.css",
+		"/C/Users/leonardo.fontana/html-training/1/app/index.html",
+		"/C/Users/leonardo.fontana/Desktop/default.html",
+		"/C/Users/leonardo.fontana/Desktop/CalculatorLibrary.js",
 		"/C/Users/leonardo.fontana/html-training/1/test/qunit-spec/test-prova.js",
 		"/C/Users/leonardo.fontana/Documents/token.txt",
 		"/C/Users/leonardo.fontana/html-training/1/.gitignore",
 		"/C/ProgramData/VCE Exam Simulator/vcesimulator-old.db",
-		"/C/Users/leonardo.fontana/html-training/1/app/index.html",
-		"/C/Users/leonardo.fontana/html-training/1/app/styles/default.css",
 		"/C/Users/leonardo.fontana/html-training/1/test/index.html",
 		"/C/Users/leonardo.fontana/html-training/1/app/scripts/default.js",
 		"/E/Exam Collection PDF/credenziali di accesso.txt",
@@ -380,17 +454,11 @@
 		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Luglio/4159.md",
 		"/C/Users/leonardo.fontana/Desktop/MAECI/performae abilitazioni/Reetrodatazioni/Luglio/4035.md",
 		"/C/Users/leonardo.fontana/Desktop/MAECI/performae abilitazioni/Reetrodatazioni/Luglio/4046.md",
-		"/C/Users/leonardo.fontana/Downloads/4084 (1).md",
-		"/C/Users/leonardo.fontana/Downloads/4084.md",
-		"/C/Users/leonardo.fontana/Desktop/MAECI/Controllo Strategico/Assistenza/Luglio/prova.md",
-		"/C/Users/leonardo.fontana/Desktop/MAECI/performae abilitazioni/Reetrodatazioni/Luglio/4035",
-		"/C/Users/leonardo.fontana/Desktop/MAECI/Valutazioni/Luglio/4033.md",
-		"/C/Users/leonardo.fontana/Desktop/MAECI/Controllo Strategico/Chiamata sp generazione PDF.sql",
-		"/C/Users/leonardo.fontana/Desktop/MAECI/Controllo Strategico/pdf.ascx"
+		"/C/Users/leonardo.fontana/Downloads/4084 (1).md"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -404,6 +472,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"'dist'",
+			"'dist",
 			"txtInput",
 			"');\n",
 			":test",
@@ -495,6 +565,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"'server/public",
 			"$('#txtInput');",
 			"                                                                                                                   ",
 			"fiscali",
@@ -518,67 +589,91 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/leonardo.fontana/Desktop/CalculatorLibrary.js",
+					"file": "app/helloForm.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1565,
+						"buffer_size": 195,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								408,
-								408
+								195,
+								195
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 57.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "server/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 906,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								835,
+								835
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/C/Users/leonardo.fontana/Desktop/default.html",
+					"buffer": 2,
+					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3634,
+						"buffer_size": 82,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3458,
-								3458
+								82,
+								82
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1539.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -631,7 +726,7 @@
 	"project": "progetto.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
