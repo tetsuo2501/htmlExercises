@@ -1,4 +1,4 @@
-﻿// Definisco un namespace
+// Definisco un namespace
  var calculatorNamespace = (function(){
     //var calculatorNamespace
     

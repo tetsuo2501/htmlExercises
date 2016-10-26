@@ -18,6 +18,11 @@ gulp.task('styles', () => {
     .pipe(reload({stream: true}));
 });
 
+gulp.task('styles:dist',['styles'], () => {
+  return gulp.src('.tmp/styles/**/*.css')
+    .pipe(gulp.dest('server/public/styles/'));
+});
+
 gulp.task('scripts', () => {
   return gulp.src('app/scripts/**/*.js')
     .pipe($.plumber())
@@ -52,26 +57,26 @@ gulp.task('lint:test', () => {
     .pipe(gulp.dest('test/spec'));
 });
 
-gulp.task('html', ['styles', 'scripts'], () => {
+gulp.task('html', ['styles:dist', 'scripts'], () => {
   return gulp.src('app/*.html')
     .pipe($.useref({searchPath: ['.tmp', 'app', '.']}))
     .pipe($.if('*.js', $.uglify()))
     .pipe($.if('*.css', $.cssnano({safe: true, autoprefixer: false})))
     .pipe($.if('*.html', $.htmlmin({collapseWhitespace: true})))
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest('server/public'));
 });
 
 gulp.task('images', () => {
   return gulp.src('app/images/**/*')
     .pipe($.cache($.imagemin()))
-    .pipe(gulp.dest('dist/images'));
+    .pipe(gulp.dest('server/public/images'));
 });
 
 gulp.task('fonts', () => {
   return gulp.src(require('main-bower-files')('**/*.{eot,svg,ttf,woff,woff2}', function (err) {})
     .concat('app/fonts/**/*'))
     .pipe(gulp.dest('.tmp/fonts'))
-    .pipe(gulp.dest('dist/fonts'));
+    .pipe(gulp.dest('server/public/fonts'));
 });
 
 gulp.task('extras', () => {
@@ -80,10 +85,10 @@ gulp.task('extras', () => {
     '!app/*.html'
   ], {
     dot: true
-  }).pipe(gulp.dest('dist'));
+  }).pipe(gulp.dest('server/public'));
 });
 
-gulp.task('clean', del.bind(null, ['.tmp', 'dist']));
+gulp.task('clean', del.bind(null, ['.tmp', 'server/public']));
 
 gulp.task('serve', () => {
   runSequence(['clean', 'wiredep'], ['styles', 'scripts', 'fonts'], () => {
@@ -116,7 +121,7 @@ gulp.task('serve:dist', () => {
     notify: false,
     port: 9000,
     server: {
-      baseDir: ['dist']
+      baseDir: ['server/public']
     }
   });
 });
@@ -150,7 +155,7 @@ gulp.task('wiredep', () => {
 });
 
 gulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras'], () => {
-  return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
+  return gulp.src('server/public/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 
 gulp.task('default', () => {

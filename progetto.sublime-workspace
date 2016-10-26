@@ -1,0 +1,677 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"clea",
+				"clear"
+			],
+			[
+				"btn",
+				"btnClear"
+			],
+			[
+				"Eredi",
+				"EreditatoSenzaPrototipo"
+			],
+			[
+				"not",
+				"QUnit: notOk"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"i",
+				"inFile"
+			],
+			[
+				"id",
+				"id_richiesta"
+			],
+			[
+				"rich",
+				"Richieste_Iscrizione_Corsi"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/leonardo.fontana/Desktop/CalculatorLibrary.js",
+			"settings":
+			{
+				"buffer_size": 1565,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/leonardo.fontana/Desktop/default.html",
+			"settings":
+			{
+				"buffer_size": 3634,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"snipp",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"hb",
+				"HTMLBeautify"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"bas",
+				"Base Encoding: Base64 Decode Selection(s)"
+			],
+			[
+				"base",
+				"Base Encoding: Base64 Encode Selection(s)"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"tsql",
+				"TSQL Easy: Open server object"
+			],
+			[
+				"U",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"xml",
+				"Indent XML"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"tee",
+				"Table Editor: Enable for current syntax"
+			],
+			[
+				"",
+				"Base Encoding: Base64 Decode Selection(s)"
+			],
+			[
+				"ww",
+				"Word Wrap: Toggle"
+			],
+			[
+				"Snippet: ",
+				"Snippet: maeciticket"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"maeci",
+				"Snippet: maeciticket"
+			],
+			[
+				"m",
+				"Snippet: maeciticket"
+			],
+			[
+				"simae",
+				"Snippet: maeciticket"
+			],
+			[
+				"smaeci",
+				"Snippet: maeciticket"
+			],
+			[
+				"sma",
+				"Snippet: maeciticket"
+			],
+			[
+				"sn",
+				"Snippet: maeciticket"
+			],
+			[
+				"Package Control: r",
+				"Package Control: Remove Package"
+			],
+			[
+				"t",
+				"Table Editor: Enable for current view"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"tab",
+				"Table Editor: Enable for current view"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/leonardo.fontana/html-training/1/test/qunit-spec/test-prova.js",
+		"/C/Users/leonardo.fontana/Documents/token.txt",
+		"/C/Users/leonardo.fontana/html-training/1/.gitignore",
+		"/C/ProgramData/VCE Exam Simulator/vcesimulator-old.db",
+		"/C/Users/leonardo.fontana/html-training/1/app/index.html",
+		"/C/Users/leonardo.fontana/html-training/1/app/styles/default.css",
+		"/C/Users/leonardo.fontana/html-training/1/test/index.html",
+		"/C/Users/leonardo.fontana/html-training/1/app/scripts/default.js",
+		"/E/Exam Collection PDF/credenziali di accesso.txt",
+		"/C/Users/leonardo.fontana/html-training/1/test/qunit-spec/test.js",
+		"/C/Users/leonardo.fontana/.bashrc",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Ottobre/7480.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Ottobre/7139.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Valutazioni/Ottobre/7289.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Ottobre/7311.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Ottobre/7194.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Ottobre/7218.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Valutazioni/Ottobre/7222.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Valutazioni/Ottobre/6524.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Settembre/6835.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Settembre/6789.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Valutazioni/Settembre/6023.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Settembre/6274.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/6549.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Settembre/6631.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Elenco persone con collisioni su Maggiorazione Abitazio.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Elenco persone negativi maggiorazione abitazione.md",
+		"/C/Users/leonardo.fontana/Downloads/6023.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Settembre/6236.md",
+		"/C/Users/leonardo.fontana/Documents/tfs/Corsi ISDI/Corsi_Isdi-Mainline/Corsi_Isdi/pages/ISDI_Registro.aspx",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Settembre/6349.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Valutazioni/Settembre/6141.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Valutazioni/Agosto/4557.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Agosto/5372.html",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Agosto/5830.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Agosto/5836.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Agosto/5534.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/BrowserInfo.html",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Agosto/5701.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Valutazioni/Agosto/5665.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Luglio/3892.html",
+		"/C/Users/leonardo.fontana/AppData/Roaming/Sublime Text 3/Packages/User/maeciticket.sublime-snippet",
+		"/C/Users/leonardo.fontana/AppData/Roaming/Sublime Text 3/Packages/User/mca.sublime-snippet",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Valutazioni/Agosto/5063.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Valutazioni/Agosto/5612.md",
+		"/C/Users/leonardo.fontana/Downloads/5063.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Valutazioni/Agosto/5651.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Agosto/5496.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/MioUfficio/Agosto/5427.md",
+		"/C/Users/leonardo.fontana/Documents/Modelli Fata/Nuova cartella/Fonatana Leonardo - avanzamento e stato dei lavori per l'applicativo Controllo Strategico.md",
+		"/C/Users/leonardo.fontana/Documents/My Received Files/Report moduli controllati al 06-07-16.txt",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Agosto/5372.md",
+		"/C/Users/leonardo.fontana/AppData/Roaming/Sublime Text 3/Installed Packages/Markdown Preview.sublime-package",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Valutazioni/Agosto/4823.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Agosto/4875.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Agosto/4874.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Valutazioni/Agosto/4932.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Agosto/5069.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Valutazioni/Agosto/5096.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Agosto/4822.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Agosto/4873.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Agosto/4792.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Agosto/4862.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Agosto/4868.md",
+		"/C/Users/leonardo.fontana/Desktop/scheda valutazione -merzetti.pdf.hex",
+		"/C/Users/leonardo.fontana/Desktop/script.ps1",
+		"/C/Users/leonardo.fontana/Desktop/risultato.pdf",
+		"/C/Users/leonardo.fontana/Desktop/elenco.txt",
+		"/C/Users/leonardo.fontana/Desktop/converter.py",
+		"/C/Users/leonardo.fontana/Desktop/scheda valutazione -merzetti.pdf",
+		"/C/Users/leonardo.fontana/Desktop/scheda valutazione-merzetti.pdf",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Agosto/4644.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Agosto/4684.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Agosto/4740.md",
+		"/C/Users/leonardo.fontana/Desktop/ModuloCorsiISDI.aspx.cs",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Agosto/Correzione indicatore.md",
+		"/C/Users/leonardo.fontana/Desktop/ModuloCorsiISDI.aspx",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Luglio/3848.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Luglio/4472.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Luglio/4624.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Luglio/4519.md",
+		"/C/Users/leonardo.fontana/Desktop/siud_mca.sql",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Valutazioni/Luglio/4075.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Agosto/4622.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Valutazioni/Luglio/4731.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Luglio/3981.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Luglio/Mattia Mazza.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/performae abilitazioni/Nuova abilitazione/4441.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/4498.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Luglio/4550.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Luglio/4558.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Luglio/SP Mattia Mazza.sql",
+		"/C/Users/leonardo.fontana/Downloads/4509.md",
+		"/C/Users/leonardo.fontana/Downloads/4509 (1).md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Luglio/4509.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Luglio/4510.md",
+		"/C/Users/leonardo.fontana/Documents/tfs/PERSONALAMPERE/PERSONALAMPERE-Mainline/PERSONALAMPERE_2.0/web.config",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Luglio/4384.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Performae Connection strings.xml",
+		"/C/Users/leonardo.fontana/Desktop/SVRPORTALI02-20160725-0759.log",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Controllo Strategico/estratto report obiettivi oiv. sql.sql",
+		"/C/Users/leonardo.fontana/Documents/Offerte di lavoro",
+		"/C/Users/leonardo.fontana/Desktop/SVRPORTALI02-20160725-0836.usage",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Controllo Strategico/Assistenza/Luglio/4323.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Luglio/4297.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Luglio/3890.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Luglio/4365.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Luglio/3892.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/performae abilitazioni/Nuova abilitazione/4261.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/performae abilitazioni/Nuova abilitazione/4260.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/performae abilitazioni/Reetrodatazioni/Luglio/4187.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/performae abilitazioni/Reetrodatazioni/Luglio/4262.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Perfomae/Assistenza/Luglio/4215.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Luglio/3554.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Luglio/3095.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Luglio/3206.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Controllo Strategico/Assistenza/Luglio/4084.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Controllo Strategico/pdf mastru nicola.cs",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Contributo abitazioni/Assistenza/Luglio/4159.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/performae abilitazioni/Reetrodatazioni/Luglio/4035.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/performae abilitazioni/Reetrodatazioni/Luglio/4046.md",
+		"/C/Users/leonardo.fontana/Downloads/4084 (1).md",
+		"/C/Users/leonardo.fontana/Downloads/4084.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Controllo Strategico/Assistenza/Luglio/prova.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/performae abilitazioni/Reetrodatazioni/Luglio/4035",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Valutazioni/Luglio/4033.md",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Controllo Strategico/Chiamata sp generazione PDF.sql",
+		"/C/Users/leonardo.fontana/Desktop/MAECI/Controllo Strategico/pdf.ascx"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"txtInput",
+			"');\n",
+			":test",
+			"vidmar",
+			"6448",
+			"LoadingModal",
+			"5555",
+			"mastrofini",
+			"lanza",
+			"grenci",
+			"anastasio",
+			"5476",
+			"5580",
+			"5225",
+			" \n",
+			"civardi",
+			"5509",
+			"tra",
+			"fiscali,",
+			"stipendiali,",
+			"()",
+			"btnStampaModulo",
+			"stampa",
+			".",
+			"missione_",
+			" , ",
+			"temporale,",
+			"titolo",
+			"=sa",
+			"sqldati",
+			"previsto",
+			"getNumeroIndicatori",
+			"indicatori",
+			"nicola",
+			"AddPageNumbers",
+			"getNumeroIndicatori",
+			"nonPrevistoFase",
+			"previsto",
+			"ArrayNumeriFasi",
+			"fasi",
+			"getNumeroFasi",
+			"ACCOUNTABILIT\t\t",
+			"ACCOUTA",
+			"PERFORMAE",
+			"IsCorsoConMotivazione",
+			"finean",
+			"_TipoMonitoraggio",
+			"SqlDSDati",
+			"monitoraggio",
+			"motivazione",
+			"motiva",
+			"motivazione",
+			"txtNota",
+			"lblTextNota",
+			"operazioni",
+			"sqlDSTipologieFasi",
+			"descrizione",
+			"sethdnModale",
+			"SqlDSDati",
+			",",
+			"Nuova Abilitazione: 1",
+			"i_corsi",
+			"enti",
+			"enti.desc_breve",
+			"ente",
+			"select",
+			"SUBENTRO con sequenza temporale, chiusura alla data",
+			"iscrizioni_session",
+			"iscrizione_session",
+			"session",
+			"Storico_Iscrizioni",
+			"@Storico_Iscrizioni",
+			"Richieste_Iscrizione_Corsi",
+			"anno_dal",
+			"Storico_Iscrizioni_Sessioni",
+			"get",
+			"C",
+			"CG",
+			"in",
+			"flg_positivo",
+			"\\?",
+			"?",
+			"proposta",
+			"valutazioni"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$('#txtInput');",
+			"                                                                                                                   ",
+			"fiscali",
+			"stipendiali",
+			" ",
+			"temporale",
+			"\n    ",
+			"",
+			"SUBENTRO con sequenza temporale chiusura alla data",
+			"@Storico_Iscrizioni",
+			"\\n",
+			" ",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/leonardo.fontana/Desktop/CalculatorLibrary.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1565,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								408,
+								408
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 57.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/leonardo.fontana/Desktop/default.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3634,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3458,
+								3458
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1539.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 124.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 825.0
+	},
+	"pinned_build_system": "",
+	"project": "progetto.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

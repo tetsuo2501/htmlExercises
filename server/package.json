@@ -1,0 +1,16 @@
+{
+  "name": "helloexpress",
+  "version": "1.0.0",
+  "description": "A simple web site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo no test && exit 1"
+  },
+  "author": "Leonardo Fontana",
+  "license": "GPL-2.0",
+  "private": true,
+  "dependencies": {
+    "express": "^4.14.0",
+    "formidable": "^1.0.17"
+  }
+}
